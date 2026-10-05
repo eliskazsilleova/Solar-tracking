@@ -22,7 +22,7 @@ The code contains docstrings revealing reasoning behind the used lines as this w
 **Visualization**: Both peak detecting and future cycles were plotted using matplotlib.pyplot, containing legends, titles and axis for clear understanding 
 
 ## Installation
-###prerequsites 
+### prerequsites 
 - python 3.13 or higher
 - required libraries: 
     - pandas
