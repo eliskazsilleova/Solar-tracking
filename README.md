@@ -50,13 +50,13 @@ main-code.py
 - Averages and standard deviations: 
     - average length of a solar cycle is 10.98 years with a standard deviation of ±1.10 years
     - average amplitude of a peak is 178.89 sunspots with a standard deviation of ±49.11 sunspots
-![Analysis of daily sunspots](sunspot-tracking.png)
+![Analysis of daily sunspots](Figure_1_analysis.png)
 
 - Predictions: 3 peaks of future cycles were predicted 
     -  1.peak: 2035-10
     -  2.peak: 2046-10
     -  3.peak: 2057-10
-![Predicting future solar cycles](sunspot-predictions.png)
+![Predicting future solar cycles](Figure_2_predictions.png)
 
 ## Contact 
 To report bugs, provide feedback or ask any questions contact me through a university email e.zsilleova@student.maastrichtuniversity.nl
