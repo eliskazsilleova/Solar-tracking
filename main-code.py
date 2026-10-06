@@ -70,7 +70,10 @@ for i in range(1, number_future_cycles + 1):
     predicted_date = last_peak + pd.Timedelta(days=prediction_days) #timedelta shows amount of time not specififc date
     lower_bound = last_peak + pd.Timedelta(days=prediction_days - std_predicted_days)
     upper_bound = last_peak + pd.Timedelta(days=prediction_days + std_predicted_days)
-
+    
+    plt.scatter(predicted_date, average_peak_height, color="crimson", label="Predicted Peaks" if i == 1 else "") #adding red dot marker for predicted peaks
+    plt.axvline(x=predicted_date, color="crimson", linestyle=':', alpha=0.4) #adding vertical dotted line for the visualization
+    
     if i == 1:
         x_offset, y_offset = -15, 18
     elif i == 2:
