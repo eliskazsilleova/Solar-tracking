@@ -56,7 +56,7 @@ main-code.py
     -  1.peak: 2035-10
     -  2.peak: 2046-10
     -  3.peak: 2057-10
-![Predicting future solar cycles](Figure_2_predictions.png)
+![Predicting future solar cycles](Figure_2_predictions_updated.png)
 
 ## Contact 
 To report bugs, provide feedback or ask any questions contact me through a university email e.zsilleova@student.maastrichtuniversity.nl
