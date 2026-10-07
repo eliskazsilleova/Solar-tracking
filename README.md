@@ -1,4 +1,4 @@
-# How can be the next solar cycles predicted? 
+# How can the next solar cycle be predicted? 
 
 ## Table of contents
 1. [Introduction](#introduction)
