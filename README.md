@@ -11,15 +11,15 @@
 ## Introduction
 In this project, a data set was downloaded from Kaggle.com to analyze and track sunspots.
 The output graphs serve as a visualization tool for better understanding and depiction of the raw data.
-The code contains docstrings revealing reasoning behind the used lines as this was built a course project. 
+The code contains docstrings revealing reasoning behind the used lines as this was built as a course project. 
 
 ## Features
-**Data Loading and Cleaning**: The data set is downloaded from Kaggle and drops missing data\
-**Data processing**: Grouping data into monthly averages and smoothing data by implementing the 13-month window\
+**Data Loading and Cleaning**: The data set is downloaded from Kaggle and missing data rows are dropped\
+**Data processing**: Grouping data into monthly averages and smoothing it by implementing the 13-month centered average\
 **Peak Detection**: The peaks were dected with find_peaks function imported from scipy.signal\
 **Statistics**: Average values of peaks and standard deviation were calculated and minimum and maximum peak values were detected\
-**Predicting future cycles**: Next three cycles were predicted, year and month are included in the output\
-**Visualization**: Both peak detecting and future cycles were plotted using matplotlib.pyplot, containing legends, titles and axis for clear understanding\
+**Predicting future cycles**: Next three cycles were predicted, a year and a month are included in the output\
+**Visualization**: Both peak detection and future cycles were plotted using matplotlib.pyplot, containing legends, titles and axis for clear understanding\
 
 ## Installation
 ### prerequsites 
